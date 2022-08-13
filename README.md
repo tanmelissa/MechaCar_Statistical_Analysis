@@ -29,7 +29,7 @@ Total_summary:
 Lot_summary:
 ![image](https://user-images.githubusercontent.com/102273449/184463655-6c417553-59dd-4907-84e1-7f4906697cf3.png)
 
-##T-Tests on Suspension Coils
+## T-Tests on Suspension Coils
 
 T-test for all lots compared to population
 
@@ -54,3 +54,20 @@ T-test for lot 3 compared to the population
 ![image](https://user-images.githubusercontent.com/102273449/184464577-9018fecd-3a1c-4797-a7f2-ce05fb6ac58b.png)
 
 With a p-value less than 0.05, we can reject the null hypothesis and can conclude that there is a statistical difference between the mean of lot 3 and the population mean.
+
+## Study Design: MechaCar vs Competition
+
+Statistical study description: To compare the cost, maintanence cost, and highway fuel efficiency of the MechaCar against it's competitors we will use a two-sample t-test.
+
+What metric or metrics are you going to test?
+- we will test cost, maintanence cost, and highway fuel efficiency against the same metrics of various competitor cars.
+
+What is the null hypothesis or alternative hypothesis?
+- Null hypothesis: There is no statistical difference between the mean (cost, maintanence cost, and highway fuel efficiency) of the MechaCar and it's sampled competitor.
+- Alternative hypothesis: There is a statistical difference between the mean (cost, maintanence cost, and highway fuel efficiency) of the MechaCar and it's sampled competitor.
+
+What statistical test would you use to test the hypothesis? And why?
+- We will use a two-sample t-test because we are comparing the means of two samples of a population (cars)
+
+What data is needed to run the statistical test?
+- We will need MechaCar cost, maintanence cost, and highway fuel efficiency data as well as the same data of a competitor car.
