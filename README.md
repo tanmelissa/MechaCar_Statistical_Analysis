@@ -28,3 +28,29 @@ Total_summary:
 
 Lot_summary:
 ![image](https://user-images.githubusercontent.com/102273449/184463655-6c417553-59dd-4907-84e1-7f4906697cf3.png)
+
+##T-Tests on Suspension Coils
+
+T-test for all lots compared to population
+
+![image](https://user-images.githubusercontent.com/102273449/184464494-11c3b847-c22e-4c53-b533-717a8268b449.png)
+
+With a p-value greater than 0.05, we fail to reject the null hypothesis that there is no statistical difference between the mean of the manufacturing lots and the population mean.
+
+T-test for lot 1 compared to the population
+
+![image](https://user-images.githubusercontent.com/102273449/184464523-5fbc731f-ecfc-4797-b8aa-a9077c662c5b.png)
+
+With a p-value greater than 0.05, we fail to reject the null hypothesis that there is no statistical difference between the mean of lot 1 and the population mean.
+
+T-test for lot 2 compared to the population
+
+![image](https://user-images.githubusercontent.com/102273449/184464544-01ea492b-6b24-4ad5-9368-cf8f2f2e9130.png)
+
+With a p-value greater than 0.05, we fail to reject the null hypothesis that there is no statistical difference between the mean of lot 2 and the population mean.
+
+T-test for lot 3 compared to the population
+
+![image](https://user-images.githubusercontent.com/102273449/184464577-9018fecd-3a1c-4797-a7f2-ce05fb6ac58b.png)
+
+With a p-value less than 0.05, we can reject the null hypothesis and can conclude that there is a statistical difference between the mean of lot 3 and the population mean.
